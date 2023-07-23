@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Rick";
+    src: url("\assets\fonts\get_schwifty.ttf");
+}
+
+.body{
+    margin: 0;
+}
+
+.navbar-bg{
+    background-image: url("\assets\img\navbar-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-bg a{
+    color: white !important;
+}
+
+.personajes{
+    width: 99vw;
+    padding-left: 2vw;
+}
+
+.margenes{
+    padding-bottom: 20px !important;
+}
+
+.rickFuente{
+    font-family: "Rick";
+    color: rgb(111, 159, 38);
+}
+
+.subtitulos{
+    color: rgb(68, 68, 81);
+}
+
+.medidaImagen{
+    height: 10vh;
+}

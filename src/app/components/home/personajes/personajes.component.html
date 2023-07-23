@@ -1,0 +1,13 @@
+<h2 class="subtitulos text-center rickFuente">PERSONAJES</h2>
+<hr>
+<!-- Creamos un div donde muestre cada personaje en formato tarjeta, con su nombre, estado y un boton para mas detalles -->
+<div class="d-flex row personajes justify-content-center mt-2" >
+    <div class="card col-md-4 text-center margenes" style="width: 18rem;" *ngFor="let personaje of database; index as i; first as isFirst">
+        <img class="card-img-top" src={{personaje.image}} />
+        <div class="card-body">
+            <h5 class="card-title">{{personaje.name}}</h5>
+            <p class="card-text">{{personaje.status}}</p>
+            <a class="btn btn-warning" [routerLink]="['/detalles', personaje|json]">Ver detalles</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sgg-t19-rickymorty-07-2023": {
+      "hosting": {
+        "sgg-t19-rickymorty-07-2023": [
+          "sgg-t19-rickymorty-07-2023"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sgg-t19-rickymorty-07-2023"
+  }
+}

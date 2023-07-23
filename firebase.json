@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "sgg-t19-rickymorty-07-2023",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

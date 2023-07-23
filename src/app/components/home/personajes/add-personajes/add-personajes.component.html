@@ -1,0 +1,35 @@
+<!-- Creamos un div para crear personajes y añadirlos a la base de datos -->
+<div class="mt-5 pt-5 text-truncate">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6"><h1 class="text-center rickFuente">Crear Personaje</h1></div>
+        <div class="col-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div>
+                <form #formulario="ngForm">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">ID</label>
+                        <input type="number" name="id" class="form-control" id="id" required aria-describedby="" [(ngModel)]="personaje.id">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                        <input type="text" name="name" class="form-control" id="name" required aria-describedby="" [(ngModel)]="personaje.name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Estado</label>
+                        <input type="text" name="status" class="form-control" id="status" required aria-describedby="" [(ngModel)]="personaje.status">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Especie</label>
+                        <input type="text" name="species" class="form-control" id="species" required aria-describedby="" [(ngModel)]="personaje.species">
+                    </div>
+                    <button type="submit" (click)="addPersonaje()" class="btn btn-warning">Crear</button>
+                </form>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>    
+</div>

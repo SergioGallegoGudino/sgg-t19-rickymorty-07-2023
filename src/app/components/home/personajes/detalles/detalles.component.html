@@ -1,0 +1,11 @@
+<!-- Creamos un div donde mostraremos toda la información del personaje al que hayamos seleccionado -->
+<div class="m-5 text-center">
+    <img class="img-fluid" src={{objeto.image}}>
+    <p><b>Nombre:</b> {{objeto.name}}</p>
+    <p><b>Estado:</b> {{objeto.status}}</p>
+    <p><b>Especie:</b> {{objeto.species}}</p>
+    <p><b>Género:</b> {{objeto.gender}}</p>
+    <p><b>Origen:</b> {{objeto.origin.name}}</p>
+    <p><b>Ubicación:</b> {{objeto.location.name}}</p>
+    <a routerLink="/personajes" class="navlink btn btn-warning">Volver</a> &nbsp;
+</div>
