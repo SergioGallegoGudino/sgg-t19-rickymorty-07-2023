@@ -1,5 +1,5 @@
 export const environment = {
-  firebase: {
+    firebase: {
     projectId: 'sgg-t19-rickymorty-07-2023',
     appId: '1:605085868706:web:2eee018253a4ca4e832dfb',
     storageBucket: 'sgg-t19-rickymorty-07-2023.appspot.com',
@@ -7,6 +7,6 @@ export const environment = {
     authDomain: 'sgg-t19-rickymorty-07-2023.firebaseapp.com',
     messagingSenderId: '605085868706',
     measurementId: 'G-0CN17P0EYH',
-  },
-  production: false
+    },
+    production: false
 };
